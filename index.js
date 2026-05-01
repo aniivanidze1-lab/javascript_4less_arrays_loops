@@ -76,8 +76,7 @@ function fibonacciGenerator(n) {
   } else {
     mimdevroba = [0, 1];
     let i = 2;
-
-    while (i < n) {
+     while (i < n) {
       mimdevroba.push(mimdevroba[i - 1] + mimdevroba[i - 2]);
       i++;
     }
